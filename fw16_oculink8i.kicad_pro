@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -86,14 +86,6 @@
         ],
         [
           "silk_over_copper|144239367|26241367|893c36d8-b16d-4fcd-82c5-0c5c4fe169af|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|44977765|72937942|32093cba-dcef-4bac-8ecd-bb4e136d7def|cb217abf-1c69-4a41-a354-fa02613ef07f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|46272202|84360595|32093cba-dcef-4bac-8ecd-bb4e136d7def|cb217abf-1c69-4a41-a354-fa02613ef07f",
           ""
         ]
       ],
