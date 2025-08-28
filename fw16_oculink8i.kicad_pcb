@@ -669,7 +669,7 @@
 		(at 88.9226 79.3955 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at -1.8796 -0.0508 180)
 			(layer "F.SilkS")
 			(uuid "d84146a5-3899-4245-b60b-f6980097a6d7")
@@ -1493,7 +1493,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.1176 180)
+			(at 0 1.4175 180)
 			(layer "F.SilkS")
 			(uuid "7cea1cee-d4b5-4a1c-b7a3-75df3e057f83")
 			(effects
@@ -1690,7 +1690,7 @@
 		(uuid "616cb28d-7629-4883-a012-2080cb0d3649")
 		(at 107.892214 91.231826)
 		(property "Reference" "J2"
-			(at 0.004353 -6.177659 0)
+			(at 0.006986 -6.345026 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5bd4a33a-2c77-4b11-b0b6-d33ce67326b8")
@@ -5307,7 +5307,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 1.1176 90)
+			(at 0 1.0668 90)
 			(layer "F.SilkS")
 			(uuid "73ddfec6-c747-4551-a124-643a171e3323")
 			(effects
@@ -5506,7 +5506,7 @@
 		(at 88.9226 80.5131)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 1.8796 0.2032 180)
 			(layer "F.SilkS")
 			(uuid "0619c0d3-d41f-458e-90c2-08ae579fac33")
@@ -5906,7 +5906,7 @@
 		(descr "TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
-			(at 0 -2.3417 0)
+			(at 0 2.4384 0)
 			(layer "F.SilkS")
 			(uuid "1e368078-8371-46ac-8938-57830afce9dd")
 			(effects
@@ -5919,6 +5919,7 @@
 		(property "Value" "BR24G32FVT-3GE2"
 			(at 0 2.4335 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95bc12ba-0dd8-4054-8a81-8870cbe08e0b")
 			(effects
 				(font
