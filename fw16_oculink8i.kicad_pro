@@ -65,27 +65,35 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|115586447|152786459|616cb28d-7629-4883-a012-2080cb0d3649|00000000-0000-0000-0000-000000000000",
-          "Removed unnecessary pins for more routing space"
+          "lib_footprint_mismatch|107862214|91231826|616cb28d-7629-4883-a012-2080cb0d3649|00000000-0000-0000-0000-000000000000",
+          "Removed unneeded pads for space"
         ],
         [
-          "lib_footprint_mismatch|139523600|89776000|8f5d8937-4797-4453-b83c-086088160eee|00000000-0000-0000-0000-000000000000",
-          "Made MP slightly smaller for space"
+          "lib_footprint_mismatch|131799367|28221367|8f5d8937-4797-4453-b83c-086088160eee|00000000-0000-0000-0000-000000000000",
+          "Resized pads to not touch holes"
         ],
         [
-          "silk_edge_clearance|127083600|86216459|fa3ff30f-51e7-4c29-8b36-fd7de2c95b49|ef9c47cf-d75c-4156-b9d8-78b91124ceb8",
+          "silk_edge_clearance|119359367|24661826|fa3ff30f-51e7-4c29-8b36-fd7de2c95b49|ef9c47cf-d75c-4156-b9d8-78b91124ceb8",
           ""
         ],
         [
-          "silk_edge_clearance|151963600|86216459|fa3ff30f-51e7-4c29-8b36-fd7de2c95b49|893c36d8-b16d-4fcd-82c5-0c5c4fe169af",
+          "silk_edge_clearance|144239367|24661826|fa3ff30f-51e7-4c29-8b36-fd7de2c95b49|893c36d8-b16d-4fcd-82c5-0c5c4fe169af",
           ""
         ],
         [
-          "silk_over_copper|127083600|87796000|ef9c47cf-d75c-4156-b9d8-78b91124ceb8|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|119359367|26241367|ef9c47cf-d75c-4156-b9d8-78b91124ceb8|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|151963600|87796000|893c36d8-b16d-4fcd-82c5-0c5c4fe169af|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|144239367|26241367|893c36d8-b16d-4fcd-82c5-0c5c4fe169af|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|44977765|72937942|32093cba-dcef-4bac-8ecd-bb4e136d7def|cb217abf-1c69-4a41-a354-fa02613ef07f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|46272202|84360595|32093cba-dcef-4bac-8ecd-bb4e136d7def|cb217abf-1c69-4a41-a354-fa02613ef07f",
           ""
         ]
       ],
