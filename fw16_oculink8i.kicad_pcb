@@ -99,7 +99,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
