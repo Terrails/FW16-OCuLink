@@ -11188,7 +11188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/FrameworkComputer/ExpansionBay/blob/main/Electrical/Dual-channel%2074P%20FXBeam%2C%20length%2027.75mm%20_Rev%202_(Public%20version).pdf"
 			(at 78.74 67.31 0)
 			(effects
 				(font
@@ -12479,7 +12479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C561383.pdf"
 			(at 119.38 176.53 0)
 			(effects
 				(font
@@ -12567,7 +12567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C561383.pdf"
 			(at 119.38 158.75 0)
 			(effects
 				(font
