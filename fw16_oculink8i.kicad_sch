@@ -6690,7 +6690,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 238.76) (xy 314.96 238.76)
+			(xy 297.18 238.76) (xy 309.88 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8087,6 +8087,16 @@
 			(type default)
 		)
 		(uuid "b051d539-0056-4aa5-890c-edb1c6e19050")
+	)
+	(wire
+		(pts
+			(xy 314.96 238.76) (xy 320.04 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b179c655-1e6c-463f-9488-9d742ed37403")
 	)
 	(wire
 		(pts
@@ -10140,7 +10150,7 @@
 	)
 	(global_label "3V3_ALW"
 		(shape passive)
-		(at 314.96 238.76 0)
+		(at 320.04 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10150,7 +10160,7 @@
 		)
 		(uuid "19685f8d-79a2-44ad-8983-b241ba717a28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.8772 238.76 0)
+			(at 329.9572 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13268,6 +13278,73 @@
 			(project "fw16_oculink8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 312.42 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f051f8fb-3dab-4eaa-8074-04c89ffa26af")
+		(property "Reference" "R19"
+			(at 312.42 240.284 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 312.166 236.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 312.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 312.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5849641c-4c3d-4ed3-ad69-824b0bae6578")
+		)
+		(pin "1"
+			(uuid "27f94def-b067-478d-abeb-84177f75840d")
+		)
+		(instances
+			(project "fw16_oculink8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
+					(reference "R19")
 					(unit 1)
 				)
 			)
