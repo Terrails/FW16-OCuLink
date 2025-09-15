@@ -1,4 +1,4 @@
-(footprint "Nano-Pitch-173162-0131"
+(footprint "Nano-Pitch-173162-0131_JLC-DRC"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -263,8 +263,8 @@
 		(uuid "1d3e35c4-845c-4b81-aa45-3399c2b8b492")
 	)
 	(pad "A1" smd oval
-		(at -9.5 1.095)
-		(size 0.31 0.91)
+		(at -9.5 1.01)
+		(size 0.31 0.74)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c765952-4259-4c58-959f-db020f043e5b")
 	)
@@ -497,8 +497,8 @@
 		(uuid "9184490d-7038-4621-82ad-0cf86a8461bc")
 	)
 	(pad "A40" smd oval
-		(at 10 1.095)
-		(size 0.31 0.91)
+		(at 10 1.0275)
+		(size 0.31 0.775)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e93cb504-ddff-490a-85ea-bebd48047c8c")
 	)

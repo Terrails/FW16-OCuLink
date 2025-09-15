@@ -11820,9 +11820,9 @@
 		(at 132.08 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d61f071-8e20-4789-9c44-44b8f67c840b")
 		(property "Reference" "R6"
 			(at 130.556 77.47 90)
@@ -11975,7 +11975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nano_Pitch:Nano-Pitch-173162-0131"
+		(property "Footprint" "Nano_Pitch:Nano-Pitch-173162-0131_JLC-DRC"
 			(at 354.33 146.99 0)
 			(effects
 				(font
@@ -12396,9 +12396,9 @@
 		(at 132.08 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8198e502-24cc-456f-bfd4-25f2478a2a4f")
 		(property "Reference" "R10"
 			(at 130.556 110.49 90)
@@ -12463,9 +12463,9 @@
 		(at 132.08 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9dcd6889-1868-4eef-9498-2174971bb5d8")
 		(property "Reference" "R8"
 			(at 130.556 93.98 90)
