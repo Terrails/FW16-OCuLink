@@ -8879,7 +8879,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fa3ff30f-51e7-4c29-8b36-fd7de2c95b49")
 	)
-	(gr_text "Framework 16 Laptop\nFXBeam to OCuLink Card\nREV 1.0\nENGINEER SAMPLE"
+	(gr_text "Framework 16 Laptop\nFXBeam to OCuLink Card\nREV 1.1\nENGINEER SAMPLE"
 		(at 44.704 79.516967 0)
 		(layer "F.Cu")
 		(uuid "b3043ebd-717e-4ba9-be88-336bc66ab0dc")
