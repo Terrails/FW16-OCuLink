@@ -5,6 +5,8 @@
 
 The schematic in itself is pretty simple. You only need to connect the TX and RX PCIe lanes to the correct pins of the OCuLink connector. And then add components such as the EEPROM that the Embedded Controller (EC) on the laptop reads to configure GPIO pins and bifurcation.
 
+A pdf version of the schematic is available [here](./imgs/schematic.pdf).
+
 ### EEPROM
 As for the EEPROM, I have decided to use the same one that Framework is using in their [Dual SSD reference design](https://github.com/FrameworkComputer/ExpansionBay/tree/main/Dual%20SSD%20Reference%20Design). The `BR24G32FVT-3GE2`. The chip is marked as not recommended for new design according to Mouser, but it still seems to be in stock, although it can easily be swapped with another if required.
 
