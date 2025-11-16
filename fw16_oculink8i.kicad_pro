@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.91,
-          "width": 0.31
+          "drill": 6.2,
+          "height": 7.1,
+          "width": 7.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,11 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.127,
-          "via_gap": 0.127,
-          "width": 0.12446
         }
       ],
       "drc_exclusions": [
@@ -69,12 +64,8 @@
           ""
         ],
         [
-          "silk_over_copper|119359367|26191367|14d0b36b-c7d0-4197-a42f-938b67a07305|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|144239367|26196367|63e5bd4a-addb-45cb-995c-77ba27b16aa3|00000000-0000-0000-0000-000000000000",
-          ""
+          "lib_footprint_mismatch|131799367|27721367|8f5d8937-4797-4453-b83c-086088160eee|00000000-0000-0000-0000-000000000000",
+          "Needed to shorten some GND pads for DRC compliance"
         ]
       ],
       "meta": {
@@ -120,7 +111,7 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -505,12 +496,12 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.1016,
+        "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.128778,
+        "diff_pair_width": 0.0,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.109728,
+        "microvia_drill": 0.109728,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -519,6 +510,18 @@
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.109728,
+        "name": "PCIe",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -526,7 +529,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PCIe",
+        "pattern": "/TX\\d.*"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/RX\\d.*"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/REFCLK.*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
