@@ -21,4 +21,4 @@ The firmware file is generated using [Framework's Expansion Bay tool](https://gi
 ## The PCB layout
 ![rev1.1](./imgs/pcb.png)
 
-For the layout I have went with a 4-layer board and did manage to successfully stay within JLCPCB's fabrication limits. For the production runs I have used the `JLC04161H-3313` stackup and matched the differential pairs to it. I did also manage to stay within the minimum 0.3mm via hole size to keep costs somewhat down.
+For the layout I have went with a 4-layer board and did manage to successfully stay within JLCPCB's fabrication limits. For the production runs I have done a 1.2mm ENIG board and used the `Nan Ya NP-140F` material type with the `JLC04121H-1080` stackup and matched the differential pairs to it. I did also manage to stay within the minimum 0.3mm via hole size to keep costs somewhat down.
