@@ -1,0 +1,122 @@
+(footprint "MountingHole_6.2mm_BigPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "mountinghole")
+	(property "Reference" "REF**"
+		(at 0 -4.7 0)
+		(layer "F.SilkS")
+		(uuid "a62f955c-7ea6-4efe-bf39-50f91e95fa2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_6.2mm_BigPad"
+		(at 0 4.58 0)
+		(layer "F.Fab")
+		(uuid "d5295897-5226-4515-8f98-d4dcdcc8beb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17070401-8940-4594-ab37-c51214ff673f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3d3d648-9eab-4ad3-b0bf-28f5aed690b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5239fa9e-dba5-4288-98cd-382b696b9c46")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.995 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6c1ae806-df02-46db-835b-298ce70ec030")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "53adbedf-9adf-4975-aa03-1e985e5741e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.7 7.7)
+		(drill 6.2)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "8f4e538a-d977-4177-8994-379ddf25797b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 7 7)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 7 7)
+				(zone_connect 2)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/Expansion_Bay_Standoff.stp"
+		(offset
+			(xyz 0 0 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)

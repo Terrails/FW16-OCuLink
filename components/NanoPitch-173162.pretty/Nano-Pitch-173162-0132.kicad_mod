@@ -1,10 +1,10 @@
-(footprint "Nano-Pitch-173162-0131_JLC-DRC"
+(footprint "Nano-Pitch-173162-0132"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "173162-0131-2")
-	(tags "Connector")
+	(descr "173162-0132 THT RA")
+	(tags "Connector OCuLink NanoPitch NPIO")
 	(property "Reference" "J**"
 		(at 0 2.88 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "1731620131"
+	(property "Value" "173162-0132"
 		(at 0 2.88 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -52,10 +52,10 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
-		(start -12.44 0.405)
-		(end -12.44 2.905)
+		(start -11.84 0.405)
+		(end -11.84 2.905)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "82a9f3e7-96e7-40ba-b863-12e65d63da1b")
 	)
 	(fp_line
-		(start -12.44 4.905)
-		(end -12.44 7.905)
+		(start -11.84 4.905)
+		(end -11.84 7.905)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "368cf8f7-3452-42ec-812a-60e4739f8fc4")
 	)
 	(fp_line
-		(start -12.44 7.905)
-		(end 12.44 7.905)
+		(start -11.84 7.905)
+		(end 11.84 7.905)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "b18dc90d-37c6-4146-acc7-b3deb1da3a37")
 	)
 	(fp_line
-		(start 12.44 0.405)
-		(end 12.44 2.905)
+		(start 11.84 0.405)
+		(end 11.84 2.905)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -124,8 +124,8 @@
 		(uuid "41f081b4-54af-433e-b58b-67ceb9fdafce")
 	)
 	(fp_line
-		(start 12.44 7.905)
-		(end 12.44 4.905)
+		(start 11.84 7.905)
+		(end 11.84 4.905)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -156,8 +156,8 @@
 		(uuid "abc79763-fe07-4d13-9f4e-8f91bee7f361")
 	)
 	(fp_line
-		(start -13.565 -3.145)
-		(end 13.565 -3.145)
+		(start -12.55 -2.545)
+		(end 12.55 -2.545)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -166,8 +166,8 @@
 		(uuid "c8e9806d-9a01-4e9a-b9a2-0d79364ed742")
 	)
 	(fp_line
-		(start -13.565 8.905)
-		(end -13.565 -3.145)
+		(start -12.55 8.505)
+		(end -12.55 -2.545)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -176,8 +176,8 @@
 		(uuid "76e1ded9-2720-48b2-9ec3-7093912ad5bd")
 	)
 	(fp_line
-		(start 13.565 -3.145)
-		(end 13.565 8.905)
+		(start 12.55 -2.545)
+		(end 12.55 8.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -186,8 +186,8 @@
 		(uuid "d82f8fa7-e588-4f01-a54e-010e2ffb3f06")
 	)
 	(fp_line
-		(start 13.565 8.905)
-		(end -13.565 8.905)
+		(start 12.55 8.505)
+		(end -12.55 8.505)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -196,8 +196,8 @@
 		(uuid "26473b44-cf4e-4ee8-99d3-b691c2352b16")
 	)
 	(fp_line
-		(start -12.44 -1.095)
-		(end 12.44 -1.095)
+		(start -11.84 -1.095)
+		(end 11.84 -1.095)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -206,8 +206,8 @@
 		(uuid "142bf977-4563-402b-a1af-9e0e06cd7d9b")
 	)
 	(fp_line
-		(start -12.44 7.905)
-		(end -12.44 -1.095)
+		(start -11.84 7.905)
+		(end -11.84 -1.095)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -216,8 +216,8 @@
 		(uuid "2e23e53f-4d7c-4526-b2d2-741329975fa9")
 	)
 	(fp_line
-		(start 12.44 -1.095)
-		(end 12.44 7.905)
+		(start 11.84 -1.095)
+		(end 11.84 7.905)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -226,8 +226,8 @@
 		(uuid "c84175c1-f790-43cf-94ae-02f22d7390df")
 	)
 	(fp_line
-		(start 12.44 7.905)
-		(end -12.44 7.905)
+		(start 11.84 7.905)
+		(end -11.84 7.905)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -250,21 +250,19 @@
 		(at -10.16 1.81)
 		(size 1.05 1.05)
 		(drill 1.05)
-		(layers "F&B.Cu" "*.Mask")
-		(clearance 0.095)
+		(layers "*.Cu" "*.Mask")
 		(uuid "13fb9f36-988b-4f4a-8f21-6f02542f2781")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.69 1.81)
 		(size 1.05 1.05)
 		(drill 1.05)
-		(layers "F&B.Cu" "*.Mask")
-		(clearance 0.095)
+		(layers "*.Cu" "*.Mask")
 		(uuid "1d3e35c4-845c-4b81-aa45-3399c2b8b492")
 	)
 	(pad "A1" smd oval
-		(at -9.5 1.01)
-		(size 0.31 0.74)
+		(at -9.5 1.095)
+		(size 0.31 0.91)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c765952-4259-4c58-959f-db020f043e5b")
 	)
@@ -497,8 +495,8 @@
 		(uuid "9184490d-7038-4621-82ad-0cf86a8461bc")
 	)
 	(pad "A40" smd oval
-		(at 10 1.0275)
-		(size 0.31 0.775)
+		(at 10 1.095)
+		(size 0.31 0.91)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e93cb504-ddff-490a-85ea-bebd48047c8c")
 	)
@@ -742,40 +740,48 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2de4c070-3925-4aae-87fc-5c8cf9235468")
 	)
-	(pad "MP1" smd rect
-		(at -11.66 -0.71 90)
-		(size 1.38 1.81)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "53180066-3578-44ae-bc2e-30ac9a2fd8c2")
+	(pad "MP" thru_hole oval
+		(at -11.33 -0.78)
+		(size 1.24 1.9)
+		(drill oval 0.74 1.35)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "80dfef21-4533-4b86-b65b-7e7a2f604079")
 	)
-	(pad "MP2" smd rect
-		(at -11.66 4.01 90)
-		(size 1.8 1.81)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e48e5e59-dd57-4205-91d3-bd30b91393f8")
+	(pad "MP" thru_hole oval
+		(at -11.33 4.01)
+		(size 1.24 1.8)
+		(drill oval 0.74 1.35)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "7772bdaa-329b-4c4e-acc8-10958225e779")
 	)
-	(pad "MP3" smd rect
-		(at 11.66 -0.71 90)
-		(size 1.38 1.81)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8d584f27-edab-49c3-a4cd-a93b5c3db350")
+	(pad "MP" thru_hole oval
+		(at 11.33 -0.78)
+		(size 1.24 1.9)
+		(drill oval 0.74 1.35)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "06ffbd86-42e3-46f4-bfe2-c06bff0bc0fe")
 	)
-	(pad "MP4" smd rect
-		(at 11.66 4.01 90)
-		(size 1.8 1.81)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bdc41b28-6ab2-4c3a-a07b-ce074761839e")
+	(pad "MP" thru_hole oval
+		(at 11.33 4.01)
+		(size 1.24 1.8)
+		(drill oval 0.74 1.35)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "bebb6e01-e1e9-462b-a938-7a685828a9cc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/components/nanopitch-173162-0131/1731620131.stp"
+	(model "${KIPRJMOD}/components/173162-0132.stp"
 		(offset
-			(xyz -0.05999999776 -3.089999868 1.969999999)
+			(xyz 0.02 -3.49 0.516)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

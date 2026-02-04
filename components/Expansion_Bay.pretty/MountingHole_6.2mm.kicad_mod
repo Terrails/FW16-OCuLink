@@ -50,17 +50,18 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(zone_connect 1)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
-		(end 3.545 0)
+		(end 3.6 -0.05)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "b4748624-51c2-48cb-bb7d-65e4a5bbaf28")
+		(uuid "80f09be7-b587-4a1d-833c-7451c4279c41")
 	)
 	(fp_circle
 		(center 0 0)
@@ -88,10 +89,34 @@
 		(at 0 0)
 		(size 7.1 7.1)
 		(drill 6.2)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
-		(zone_connect 2)
+		(thermal_bridge_angle 0)
 		(uuid "8f4e538a-d977-4177-8994-379ddf25797b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 7 7)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 7 7)
+				(zone_connect 2)
+			)
+		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/Expansion_Bay_Standoff.stp"
+		(offset
+			(xyz 0 0 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
 )

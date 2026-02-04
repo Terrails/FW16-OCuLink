@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Expansion_Bay")(type "KiCad")(uri "${KIPRJMOD}/components/fxbeam/FXBeam.kicad_sym")(options "")(descr ""))
-  (lib (name "Nano_Pitch")(type "KiCad")(uri "${KIPRJMOD}/components/nanopitch-173162-0131/NanoPitch-173162-0131.kicad_sym")(options "")(descr ""))
+  (lib (name "Expansion_Bay")(type "KiCad")(uri "${KIPRJMOD}/components/Expansion_Bay.kicad_sym")(options "")(descr ""))
+  (lib (name "Nano_Pitch")(type "KiCad")(uri "${KIPRJMOD}/components/NanoPitch-173162.kicad_sym")(options "")(descr ""))
 )

@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "173162-0131-2")
-	(tags "Connector")
+	(descr "173162-0131 SMD RA")
+	(tags "Connector OCuLink NanoPitch NPIO")
 	(property "Reference" "J**"
 		(at 0 2.88 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "1731620131"
+	(property "Value" "173162-0131"
 		(at 0 2.88 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -250,7 +250,7 @@
 		(at -10.16 1.81)
 		(size 1.05 1.05)
 		(drill 1.05)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.095)
 		(uuid "13fb9f36-988b-4f4a-8f21-6f02542f2781")
 	)
@@ -258,13 +258,13 @@
 		(at 10.69 1.81)
 		(size 1.05 1.05)
 		(drill 1.05)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.095)
 		(uuid "1d3e35c4-845c-4b81-aa45-3399c2b8b492")
 	)
 	(pad "A1" smd oval
-		(at -9.5 1.095)
-		(size 0.31 0.91)
+		(at -9.5 1.01)
+		(size 0.31 0.74)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7c765952-4259-4c58-959f-db020f043e5b")
 	)
@@ -497,8 +497,8 @@
 		(uuid "9184490d-7038-4621-82ad-0cf86a8461bc")
 	)
 	(pad "A40" smd oval
-		(at 10 1.095)
-		(size 0.31 0.91)
+		(at 10 1.0275)
+		(size 0.31 0.775)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e93cb504-ddff-490a-85ea-bebd48047c8c")
 	)
@@ -742,32 +742,32 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2de4c070-3925-4aae-87fc-5c8cf9235468")
 	)
-	(pad "MP1" smd rect
+	(pad "MP" smd rect
 		(at -11.66 -0.71 90)
 		(size 1.38 1.81)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "53180066-3578-44ae-bc2e-30ac9a2fd8c2")
 	)
-	(pad "MP2" smd rect
+	(pad "MP" smd rect
 		(at -11.66 4.01 90)
 		(size 1.8 1.81)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e48e5e59-dd57-4205-91d3-bd30b91393f8")
 	)
-	(pad "MP3" smd rect
+	(pad "MP" smd rect
 		(at 11.66 -0.71 90)
 		(size 1.38 1.81)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8d584f27-edab-49c3-a4cd-a93b5c3db350")
 	)
-	(pad "MP4" smd rect
+	(pad "MP" smd rect
 		(at 11.66 4.01 90)
 		(size 1.8 1.81)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bdc41b28-6ab2-4c3a-a07b-ce074761839e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/components/nanopitch-173162-0131/1731620131.stp"
+	(model "${KIPRJMOD}/components/173162-0131.stp"
 		(offset
 			(xyz -0.05999999776 -3.089999868 1.969999999)
 		)
