@@ -6925,6 +6925,16 @@
 		)
 		(uuid "8a2351e4-899a-4415-9c23-66f0c0f3f500")
 	)
+	(text "Floating by default"
+		(exclude_from_sim no)
+		(at 357.632 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afa63271-f0e5-4d31-88bc-c3bcea108cb5")
+	)
 	(text "Pull-down on device side"
 		(exclude_from_sim no)
 		(at 279.146 91.694 0)
@@ -8387,6 +8397,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 50.8) (xy 370.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23162412-a1b5-454f-bc3f-ae3078f11dcf")
+	)
+	(wire
+		(pts
 			(xy 365.76 85.09) (xy 364.49 83.82)
 		)
 		(stroke
@@ -9717,7 +9737,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 50.8) (xy 370.84 50.8)
+			(xy 354.33 50.8) (xy 364.49 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13106,7 +13126,7 @@
 		(uuid "d9c9ff0b-d15a-448b-9dd3-98b6e52b77a0")
 	)
 	(label "PEX_RST"
-		(at 360.68 50.8 0)
+		(at 354.33 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16388,7 +16408,7 @@
 				)
 			)
 		)
-		(property "Value" "3K9"
+		(property "Value" "47K"
 			(at 314.198 57.15 90)
 			(effects
 				(font
@@ -16642,6 +16662,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 367.03 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6c4a6929-4a39-48a4-bcd3-b4f01919b1b2")
+		(property "Reference" "R36"
+			(at 367.03 52.324 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 367.03 49.022 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 367.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 367.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cb03b55-ff38-4f8a-aa25-4cdd3cc46a25")
+		)
+		(pin "1"
+			(uuid "fbe8023b-043d-454d-a0ac-3e448ad8c043")
+		)
+		(instances
+			(project "fw16_oculink8i"
+				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 379.73 95.25 90)
 		(mirror x)
 		(unit 1)
@@ -16794,7 +16882,7 @@
 				)
 			)
 		)
-		(property "Value" "3K9"
+		(property "Value" "47K"
 			(at 314.198 96.52 90)
 			(effects
 				(font
@@ -18403,7 +18491,7 @@
 				)
 			)
 		)
-		(property "Value" "9K1"
+		(property "Value" "100K"
 			(at 307.34 94.488 90)
 			(effects
 				(font
@@ -19269,7 +19357,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1K"
 			(at 281.94 89.408 90)
 			(effects
 				(font
@@ -19326,7 +19414,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d29193be-983f-4ed4-a83d-0ab331588b75")
 		(property "Reference" "J5"
@@ -19628,7 +19716,7 @@
 				)
 			)
 		)
-		(property "Value" "9K1"
+		(property "Value" "100K"
 			(at 307.34 55.118 90)
 			(effects
 				(font
@@ -19696,7 +19784,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1K"
 			(at 281.94 50.038 90)
 			(effects
 				(font

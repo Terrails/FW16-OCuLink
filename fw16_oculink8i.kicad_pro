@@ -61,11 +61,11 @@
       "drc_exclusions": [
         [
           "hole_clearance|121802200|27206367|07d185b7-5e5e-4780-8c33-394bad52484c|9cb2d8f8-fc33-4808-8a37-3474e55fee68",
-          "It is what it is"
+          ""
         ],
         [
           "hole_clearance|141302200|27206367|62a2b96b-179d-49b0-b672-02368a282a73|4f243199-54bc-40a4-a687-3fe16883526f",
-          "It is what it is"
+          ""
         ],
         [
           "lib_footprint_mismatch|107862214|91231826|616cb28d-7629-4883-a012-2080cb0d3649|00000000-0000-0000-0000-000000000000",
@@ -219,12 +219,12 @@
           "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.2032,
+          "min_amplitude": 0.0762,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.3048
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
