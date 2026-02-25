@@ -207,7 +207,9 @@
         0.1,
         0.2032,
         0.254,
-        0.381
+        0.3556,
+        0.381,
+        0.5588
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,10 +223,10 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 0.2032,
-          "min_amplitude": 0.0762,
+          "max_amplitude": 0.6096,
+          "min_amplitude": 0.254,
           "single_sided": false,
-          "spacing": 0.3048
+          "spacing": 0.6096
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -247,6 +249,14 @@
         {
           "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.35
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false

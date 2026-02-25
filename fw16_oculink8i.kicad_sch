@@ -412,113 +412,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -7617,16 +7510,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 128.27) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cfc086-ccd9-469a-8b0a-d378bf12e04b")
-	)
-	(wire
-		(pts
 			(xy 68.58 191.77) (xy 68.58 193.04)
 		)
 		(stroke
@@ -8144,6 +8027,16 @@
 			(type default)
 		)
 		(uuid "19a993e2-48ce-474d-8bdb-34a1b92c044c")
+	)
+	(wire
+		(pts
+			(xy 224.79 140.97) (xy 227.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a484277-6992-47be-8550-58ed45b0264a")
 	)
 	(wire
 		(pts
@@ -8824,16 +8717,6 @@
 			(type default)
 		)
 		(uuid "410b9f7b-739b-4fd5-8ce5-f87f5897877a")
-	)
-	(wire
-		(pts
-			(xy 29.21 137.16) (xy 39.37 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41278d7e-015b-4e50-a0cc-f7b881c7194e")
 	)
 	(wire
 		(pts
@@ -9594,6 +9477,16 @@
 			(type default)
 		)
 		(uuid "6f0a6980-d27e-423f-8733-acd32facdfc0")
+	)
+	(wire
+		(pts
+			(xy 33.02 137.16) (xy 39.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705f4978-66dd-41df-8b07-d978d230ef10")
 	)
 	(wire
 		(pts
@@ -10574,16 +10467,6 @@
 			(type default)
 		)
 		(uuid "ae116845-38a9-4f9d-957c-4c12530961eb")
-	)
-	(wire
-		(pts
-			(xy 26.67 134.62) (xy 39.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae14ac65-859f-44a9-94bd-9b2e16009e6c")
 	)
 	(wire
 		(pts
@@ -11727,6 +11610,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 134.62) (xy 39.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceff493-bb19-42d5-b7d3-2bb37809d900")
+	)
+	(wire
+		(pts
 			(xy 238.76 101.6) (xy 236.22 101.6)
 		)
 		(stroke
@@ -11977,16 +11870,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 140.97) (xy 232.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f947b050-18de-4919-8164-8871e8667344")
-	)
-	(wire
-		(pts
 			(xy 289.56 48.26) (xy 314.96 48.26)
 		)
 		(stroke
@@ -12085,26 +11968,6 @@
 		)
 		(uuid "06d474c7-d28a-4d0d-83dc-7ced0a05b6cd")
 	)
-	(label "REFCLKA+"
-		(at 191.77 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b6709d9-885c-47de-ac5e-26b7d72b5ade")
-	)
-	(label "REFCLKA-"
-		(at 191.77 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c94dd47-5f2c-46d7-9bf5-b4d418b2fe5b")
-	)
 	(label "CPRSNTA"
 		(at 269.24 48.26 0)
 		(effects
@@ -12144,16 +12007,6 @@
 			(justify right bottom)
 		)
 		(uuid "10d7b74e-109e-407f-872b-d5f20b5065dc")
-	)
-	(label "REFCLKB+"
-		(at 191.77 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13973aaf-cde7-4c41-8426-2ab95072f85d")
 	)
 	(label "TX5-"
 		(at 109.22 67.31 0)
@@ -12195,16 +12048,6 @@
 		)
 		(uuid "22077754-2e08-4439-badb-1092e9f0e8dc")
 	)
-	(label "RX6-"
-		(at 195.58 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22648293-9c8d-4c5f-a6f1-8f60f5c47690")
-	)
 	(label "A1"
 		(at 116.84 182.88 0)
 		(effects
@@ -12214,16 +12057,6 @@
 			(justify left bottom)
 		)
 		(uuid "25524dd1-d23a-42fb-91db-2a23c1662bde")
-	)
-	(label "RX7-"
-		(at 195.58 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "258b05eb-65ab-474e-95eb-e3bed8c5e86a")
 	)
 	(label "TX3-"
 		(at 109.22 57.15 0)
@@ -12274,6 +12107,16 @@
 			(justify right bottom)
 		)
 		(uuid "2c48982b-e7e1-43da-8f86-1aadc578541f")
+	)
+	(label "REFCLKA+"
+		(at 191.77 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e55f70c-1618-4ae1-bd96-c9c0aad6200b")
 	)
 	(label "RX0-"
 		(at 195.58 35.56 0)
@@ -12335,16 +12178,6 @@
 		)
 		(uuid "3978f8b6-ccd9-4541-9ec7-8abe031f74e2")
 	)
-	(label "REFCLKB-"
-		(at 191.77 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d00cd83-9fe4-4281-9a81-74f172f61ea9")
-	)
 	(label "PERSTB"
 		(at 388.62 53.34 180)
 		(effects
@@ -12355,16 +12188,6 @@
 		)
 		(uuid "418840bc-2825-4955-8655-8f7cf636cdd2")
 	)
-	(label "RX6+"
-		(at 195.58 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43b7e824-7aea-40e8-b2b1-17f42eb562d8")
-	)
 	(label "TX4+"
 		(at 109.22 59.69 0)
 		(effects
@@ -12374,6 +12197,16 @@
 			(justify left bottom)
 		)
 		(uuid "446dcc85-0ac1-419a-8d9f-069c88d402e9")
+	)
+	(label "REFCLKB+"
+		(at 191.77 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44d26176-0f1c-43d9-986d-e2e87802317b")
 	)
 	(label "TX6+"
 		(at 109.22 69.85 0)
@@ -12575,16 +12408,6 @@
 		)
 		(uuid "6598e8e0-9032-4209-93c6-708a2cb683a6")
 	)
-	(label "PWR_GOOD"
-		(at 29.21 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "690b6e55-8089-4e1f-a1e1-c42c8d68e044")
-	)
 	(label "FAN0_PWM"
 		(at 68.58 240.03 180)
 		(effects
@@ -12636,7 +12459,7 @@
 		(uuid "772496e1-ab6b-49e7-87f3-20fde9ab4e2a")
 	)
 	(label "GPIO1"
-		(at 31.75 134.62 0)
+		(at 33.02 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12705,6 +12528,26 @@
 		)
 		(uuid "83a90b2f-43c6-4de5-8b22-b16270984624")
 	)
+	(label "REFCLKB-"
+		(at 191.77 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "855e04bc-fc14-4c50-a298-72cf287736b3")
+	)
+	(label "REFCLKA-"
+		(at 191.77 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "884cf553-df7d-477b-9e90-66085dbcd4be")
+	)
 	(label "RX1-"
 		(at 162.56 46.99 180)
 		(effects
@@ -12724,16 +12567,6 @@
 			(justify left bottom)
 		)
 		(uuid "8ce376bb-6df7-4982-a6b3-66d7595cee82")
-	)
-	(label "RX7+"
-		(at 195.58 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90a4c946-89c7-4979-a6e5-3262e62b3bac")
 	)
 	(label "CLK_AUTO_EN2"
 		(at 345.44 90.17 180)
@@ -12945,6 +12778,16 @@
 		)
 		(uuid "b10c6b7d-5435-4011-936b-729207a52fee")
 	)
+	(label "RX6+"
+		(at 195.58 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b332dd50-32c5-4a56-aa94-cf636d77aac9")
+	)
 	(label "TX2+"
 		(at 251.46 66.04 180)
 		(effects
@@ -12956,7 +12799,7 @@
 		(uuid "b398f9eb-c7bb-4267-8189-9225ea1e43e9")
 	)
 	(label "GPIO0"
-		(at 31.75 137.16 0)
+		(at 33.02 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12995,6 +12838,16 @@
 		)
 		(uuid "bc8b34ae-3c99-4b06-928a-f55115adffe7")
 	)
+	(label "RX7+"
+		(at 195.58 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c40d45d7-1302-48a1-a49c-1e813db80a7b")
+	)
 	(label "RX7-"
 		(at 162.56 77.47 180)
 		(effects
@@ -13004,6 +12857,16 @@
 			(justify right bottom)
 		)
 		(uuid "c452e4f0-50d6-4360-874b-ff5b061dae70")
+	)
+	(label "RX7-"
+		(at 195.58 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e0cb1e-03b5-4f72-a841-164ee4afed10")
 	)
 	(label "RX5+"
 		(at 162.56 64.77 180)
@@ -13154,6 +13017,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc89c7af-0e79-49c1-a5d4-32ea128bf522")
+	)
+	(label "RX6-"
+		(at 195.58 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "def4e586-8fa6-4dc5-a5cb-54c8b1062ab4")
 	)
 	(label "CLKREQ2"
 		(at 396.24 87.63 180)
@@ -13953,7 +13826,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 234.95 140.97 0)
+		(at 227.33 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13963,7 +13836,7 @@
 		)
 		(uuid "68ec67f5-4385-453f-a4ab-6703ddc8a297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.6944 140.97 0)
+			(at 233.0744 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15837,73 +15710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 26.67 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c00b0c1-0af1-4ae0-80fb-e758e120e3a1")
-		(property "Reference" "TP2"
-			(at 25.146 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 27.94 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81dc6ad8-f781-45f1-b030-51d0c3c40795")
-		)
-		(instances
-			(project "FW16-OCuLink"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 162.56 182.88 90)
 		(unit 1)
@@ -17438,73 +17244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 29.21 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "97ebb5e6-7eb8-4e74-8cfa-89266a42d54e")
-		(property "Reference" "TP3"
-			(at 27.686 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 30.48 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 29.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e58fcef-6f76-4c2f-b2ea-b89cec2f4f48")
-		)
-		(instances
-			(project "FW16-OCuLink"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 68.58 195.58 180)
 		(unit 1)
@@ -18310,85 +18049,6 @@
 			(project "fw16_oculink8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 228.6 140.97 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb66d171-cf27-4600-964e-3b957abc0eb7")
-		(property "Reference" "R35"
-			(at 228.6 138.176 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "0R"
-			(at 228.6 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 228.6 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 233.934 141.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb076534-1d0a-4407-aaa1-7bdf40db1523")
-		)
-		(pin "1"
-			(uuid "bb3462b4-b2d7-4702-ab29-f88b65f5af44")
-		)
-		(instances
-			(project "FW16-OCuLink"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -19897,73 +19557,6 @@
 			(project "fw16_oculink8i"
 				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 25.4 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff319f71-fde8-4094-951d-e241254ffea3")
-		(property "Reference" "TP1"
-			(at 23.876 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 26.67 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 30.48 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 25.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d82d16b9-694e-4f99-8766-e968cc3d3f79")
-		)
-		(instances
-			(project "FW16-OCuLink"
-				(path "/50f5fd03-67f8-43d1-8bfe-dca2cf908bf0"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
